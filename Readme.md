@@ -1,3 +1,11 @@
+# Danger! Do not use!
+
+## This project has been heavily adapted for use, and is considered unstable for any other purpose.
+
+One thing explicitly known that does not work is Attribute cloning on new classes, this was disabled as it did not compile under .net core, and was not needed!
+
+# Danger!
+
 C# 4.0 (.net & silverlight) framework to allow you to wrap any object (static or dynamic) with a static interface even though it didn't inherit from it. It does this by emitting cached dynamic binding code inside a proxy. By expanding on the DLR plumbing used to implement this library, it has grown to support more general dynamic implementations.
 
 See [Wiki](http://github.com/ekonbenefits/impromptu-interface/wiki) for full examples of all features. Other features include Really Late Binding, Inline Syntaxes, Currying, some dynamic extensions for FSharp, and unsealed Dynamic Objects including a fully dynamic MVVM ViewModel
